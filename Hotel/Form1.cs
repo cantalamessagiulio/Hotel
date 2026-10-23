@@ -17,9 +17,9 @@ namespace Hotel
             InitializeComponent();
         }
 
-      
 
-       
+
+
 
         private void btn_1_Click(object sender, EventArgs e)
         {
@@ -70,7 +70,7 @@ namespace Hotel
             {
                 prezzotot = prezzotot - prezzotot * 35 / 100;
             }
-            else if (giorni >3)
+            else if (giorni > 3)
             {
                 prezzotot = prezzotot - prezzotot * 25 / 100;
             }
@@ -84,22 +84,22 @@ namespace Hotel
             }
         }
 
-       
 
-     
+
+
 
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Nel reparto stagione inserire in quale stagione è desiderato andare." +
-                ""  +
+                "" +
                 "Nel reparto camera inserire in che tipo di camera alloggiare." +
                 "" +
                 "Nel reparto numero di giorni inserire quanti giorni si vuole alloggiare, se si alloggia dai 3-7 giorni si avrà uno sconto del 25% sul totale e se si alloggia per più di 7 giorni si avrà uno sconto del 35%." +
                 "" +
-                "Inserire se si vuole aggiungere il parcheggio."); 
+                "Inserire se si vuole aggiungere il parcheggio.");
         }
 
-      
+
 
     }
 }

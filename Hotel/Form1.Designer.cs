@@ -102,7 +102,7 @@
             this.btn_1.TabIndex = 4;
             this.btn_1.Text = "CALCOLA IL TOTALE E PRENOTA";
             this.btn_1.UseVisualStyleBackColor = true;
-            this.btn_1.Click += new System.EventHandler(this.btn_1_Click);
+       
             // 
             // lbl_2
             // 
@@ -165,7 +165,6 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "?";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lbl_5
             // 
